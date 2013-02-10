@@ -1,0 +1,17 @@
+unix_security_audit
+===================
+
+Description:
+
+This script will extract security details from a AIX, Redhat, or Solaris system.
+The output from the script should be redirected to a text file for offline viewing.
+The goal in creating this was to be able to run it locally on any system and
+produce a text file dump of all the details.
+
+The security details extracted are in line with the requirements detailed in the
+STIGs.  The Security Technical Implementation Guides (STIGs) are the configuration
+standards for DOD IA and IA-enabled devices/systems.  To see more on this topic 
+view:
+
+http://en.wikipedia.org/wiki/Security_Technical_Implementation_Guide
+http://iase.disa.mil/stigs/index.html
